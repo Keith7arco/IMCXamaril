@@ -6,8 +6,9 @@
     <Grid BackgroundColor="#F6D0B1">
         <StackLayout VerticalOptions="Center"
                      Margin="20">
-            <Image Source="https://cdn-icons-png.flaticon.com/512/706/706173.png"
-                   Margin="30" />
+            <Image Source="mitad.png"
+                   Margin="30" 
+                   x:Name="imgMedidor"/>
             <Frame HasShadow="False"
                    CornerRadius="10">
                 <Entry Keyboard="Numeric"

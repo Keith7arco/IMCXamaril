@@ -29,24 +29,32 @@ namespace AppPrueba.Vistas
             if (resultado < 18.5)
             {
                 msg = "Bajo Peso";
+                imgMedidor.Source = "Bajo.png";
             }
             else if (resultado >= 18.5 && resultado <= 24.9)
             {
                 msg = "Peso Normal";
+                imgMedidor.Source = "bajomedio.png";
             }
             else if (resultado >= 25 && resultado <= 29.9)
             {
                 msg = "SobrePeso";
+                imgMedidor.Source = "mitad.png";
             }
             else if (resultado >= 30 && resultado <= 34.9)
             {
                 msg = "Obesidad Tipo 1";
+                imgMedidor.Source = "medioalto.png";
             }
             else if (resultado >= 35 && resultado <= 39.9)
             {
                 msg = "Obesidad Tipo 2";
+                imgMedidor.Source = "alto.png";
             }
-            else { msg = "Obesidad Tipo 3"; }
+            else { 
+                msg = "Obesidad Tipo 3";
+                imgMedidor.Source = "alto.png";
+            }
 
             lblResultado.Text = resultado.ToString("N1");
             lblCategoria.Text = msg;
@@ -76,6 +84,7 @@ namespace AppPrueba.Vistas
             txtPeso.Text = string.Empty;
             lblResultado.Text = " --- ";
             lblCategoria.Text = " --- ";
+            imgMedidor.Source = "mitad.png";
         }
 
         private void btnAtras_Clicked(object sender, EventArgs e)

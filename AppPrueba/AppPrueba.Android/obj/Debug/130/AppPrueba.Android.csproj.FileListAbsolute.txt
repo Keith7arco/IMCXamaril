@@ -699,5 +699,8 @@ C:\Users\tarco\source\repos\AppPrueba\AppPrueba\AppPrueba.Android\obj\Debug\130\
 C:\Users\tarco\source\repos\AppPrueba\AppPrueba\AppPrueba.Android\obj\Debug\130\android\src\crc64ee486da937c010f4\LabelAppCompatRenderer.java
 C:\Users\tarco\source\repos\AppPrueba\AppPrueba\AppPrueba.Android\obj\Debug\130\android\src\mono\androidx\fragment\app\strictmode\FragmentStrictMode_OnViolationListenerImplementor.java
 C:\Users\tarco\source\repos\AppPrueba\AppPrueba\AppPrueba.Android\obj\Debug\130\android\bin\classes2.dex
-C:\Users\tarco\source\repos\AppPrueba\AppPrueba\AppPrueba.Android\obj\Debug\130\res\drawable\imc.png
-C:\Users\tarco\source\repos\AppPrueba\AppPrueba\AppPrueba.Android\obj\Debug\130\res\drawable\balance.png
+C:\Users\tarco\source\repos\AppPrueba\AppPrueba\AppPrueba.Android\obj\Debug\130\res\drawable\alto.png
+C:\Users\tarco\source\repos\AppPrueba\AppPrueba\AppPrueba.Android\obj\Debug\130\res\drawable\medioalto.png
+C:\Users\tarco\source\repos\AppPrueba\AppPrueba\AppPrueba.Android\obj\Debug\130\res\drawable\bajomedio.png
+C:\Users\tarco\source\repos\AppPrueba\AppPrueba\AppPrueba.Android\obj\Debug\130\res\drawable\bajo.png
+C:\Users\tarco\source\repos\AppPrueba\AppPrueba\AppPrueba.Android\obj\Debug\130\res\drawable\mitad.png
