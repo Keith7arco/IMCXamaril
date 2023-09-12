@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "rFqAVJmzc6HDxIFrAv1ueR5ueg8W3CxBF7co1G8HU7LbczT/82yx618+7vd7/jruWZBbD8AgnyqIbCPsMNcqUQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\tarco\\source\\repos\\AppPrueba\\AppPrueba\\AppPrueba.iOS\\AppPrueba.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\tarco\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\tarco\\.nuget\\packages\\xamarin.essentials\\1.8.0\\xamarin.essentials.1.8.0.nupkg.sha512",
+    "C:\\Users\\tarco\\.nuget\\packages\\xamarin.forms\\5.0.0.2612\\xamarin.forms.5.0.0.2612.nupkg.sha512"
+  ],
+  "logs": []
+}

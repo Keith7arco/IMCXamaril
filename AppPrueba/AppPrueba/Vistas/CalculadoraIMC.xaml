@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppPrueba.Vistas.CalculadoraIMC"
+             NavigationPage.HasNavigationBar="False">
+    <Grid BackgroundColor="#F6D0B1">
+        <StackLayout VerticalOptions="Center"
+                     Margin="20">
+            <Image Source="https://cdn-icons-png.flaticon.com/512/706/706173.png"
+                   Margin="30" />
+            <Frame HasShadow="False"
+                   CornerRadius="10">
+                <Entry Keyboard="Numeric"
+                       TextColor="#CE4760"
+                       FontSize="16"
+                       FontAttributes="Bold"
+                       Placeholder="Altura (Cm)"
+                       PlaceholderColor="#CE4760"
+                       x:Name="txtAltura" />
+            </Frame>
+            <Frame HasShadow="False"
+                   CornerRadius="10">
+                <Entry Keyboard="Numeric"
+                       TextColor="#CE4760"
+                       FontSize="16"
+                       FontAttributes="Bold"
+                       Placeholder="Peso (Kg)"
+                       PlaceholderColor="#CE4760"
+                       x:Name="txtPeso" />
+            </Frame>
+            <Button Text="Calcular"
+                    TextTransform="None"
+                    CornerRadius="10"
+                    FontSize="20"
+                    FontAttributes="Bold"
+                    Margin="0,20,0,0"
+                    TextColor="#F6D0B1"
+                    BackgroundColor="#CE4760" 
+                    x:Name="btnCalcular"
+                    Clicked="btnCalcular_Clicked"/>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Resultado: " 
+                       FontSize="Large"
+                       FontAttributes="Bold"
+                       TextColor="#CE4760"
+                       VerticalOptions="Center"/>
+                <Label Text="---"
+                       FontSize="Large"
+                       FontAttributes="Bold"
+                       VerticalOptions="Center"
+                       TextColor="#CE4760"
+                       x:Name="lblResultado"/>
+            </StackLayout>
+            <Button Text="Atras" 
+                    TextTransform="None"
+                    FontSize="20"
+                    FontAttributes="Bold"
+                    TextColor="#F6D0B1"
+                    Background="#638475"
+                    HorizontalOptions="Center"
+                    CornerRadius="10"
+                    x:Name="btnAtras"
+                    Clicked="btnAtras_Clicked"/>
+        </StackLayout>
+    </Grid>
+</ContentPage>

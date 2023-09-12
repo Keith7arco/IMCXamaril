@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppPrueba.Vistas.MenuPrincipal"
+             NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#90E39A">
+            <Label Text="Calculadora IMC"
+                   TextColor="#638475"
+                   FontSize="24"
+                   FontAttributes="Bold"
+                   Margin="0,20,0,0"
+                   HorizontalOptions="Center" />
+            <Frame VerticalOptions="FillAndExpand"
+                   Margin="30,20,30,100"
+                   CornerRadius="40"
+                   HasShadow="False">
+                <StackLayout VerticalOptions="Center">
+                    <Image Source="https://cdn-icons-png.flaticon.com/512/2928/2928934.png"
+                           Margin="20" />
+                    <Label Text="Calcula tu estado de Salud"
+                           TextColor="#638475"
+                           FontSize="16"
+                           FontAttributes="Bold"
+                           HorizontalOptions="Center" />
+                    <Label Text="segun el Peso"
+                           TextColor="#638475"
+                           FontSize="16"
+                           FontAttributes="Bold"
+                           HorizontalOptions="Center" />
+                    <Button Text="Calcular"
+                            TextTransform="None"
+                            BackgroundColor="#DDF093"
+                            CornerRadius="10"
+                            FontSize="Medium"
+                            FontAttributes="Bold"
+                            TextColor="#638475"
+                            Margin="20" 
+                            x:Name="btnIniciar"
+                            Clicked="btnIniciar_Clicked"/>
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

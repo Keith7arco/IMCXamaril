@@ -1,0 +1,16 @@
+C:\Users\tarco\source\repos\AppPrueba\AppPrueba\AppPrueba\bin\Debug\netstandard2.0\AppPrueba.deps.json
+C:\Users\tarco\source\repos\AppPrueba\AppPrueba\AppPrueba\bin\Debug\netstandard2.0\AppPrueba.dll
+C:\Users\tarco\source\repos\AppPrueba\AppPrueba\AppPrueba\bin\Debug\netstandard2.0\ref\AppPrueba.dll
+C:\Users\tarco\source\repos\AppPrueba\AppPrueba\AppPrueba\bin\Debug\netstandard2.0\AppPrueba.pdb
+C:\Users\tarco\source\repos\AppPrueba\AppPrueba\AppPrueba\obj\Debug\netstandard2.0\AppPrueba.csproj.AssemblyReference.cache
+C:\Users\tarco\source\repos\AppPrueba\AppPrueba\AppPrueba\obj\Debug\netstandard2.0\AppPrueba.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tarco\source\repos\AppPrueba\AppPrueba\AppPrueba\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\tarco\source\repos\AppPrueba\AppPrueba\AppPrueba\obj\Debug\netstandard2.0\AppPrueba.AssemblyInfoInputs.cache
+C:\Users\tarco\source\repos\AppPrueba\AppPrueba\AppPrueba\obj\Debug\netstandard2.0\AppPrueba.AssemblyInfo.cs
+C:\Users\tarco\source\repos\AppPrueba\AppPrueba\AppPrueba\obj\Debug\netstandard2.0\AppPrueba.csproj.CoreCompileInputs.cache
+C:\Users\tarco\source\repos\AppPrueba\AppPrueba\AppPrueba\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\tarco\source\repos\AppPrueba\AppPrueba\AppPrueba\obj\Debug\netstandard2.0\AppPrueba.dll
+C:\Users\tarco\source\repos\AppPrueba\AppPrueba\AppPrueba\obj\Debug\netstandard2.0\refint\AppPrueba.dll
+C:\Users\tarco\source\repos\AppPrueba\AppPrueba\AppPrueba\obj\Debug\netstandard2.0\AppPrueba.pdb
+C:\Users\tarco\source\repos\AppPrueba\AppPrueba\AppPrueba\obj\Debug\netstandard2.0\Vistas\MenuPrincipal.xaml.g.cs
+C:\Users\tarco\source\repos\AppPrueba\AppPrueba\AppPrueba\obj\Debug\netstandard2.0\Vistas\CalculadoraIMC.xaml.g.cs

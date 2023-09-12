@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "qyggzdDCZn2GvAWsFUwg132dHqkQlLuoQJNM5kz9OQ+7uD7D9QAyfXJi5WRDhcJ85p6wKw6D0P6fDr3BF+bUcg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\tarco\\source\\repos\\AppPrueba\\AppPrueba\\AppPrueba\\AppPrueba.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\tarco\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\tarco\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\tarco\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\tarco\\.nuget\\packages\\xamarin.essentials\\1.8.0\\xamarin.essentials.1.8.0.nupkg.sha512",
+    "C:\\Users\\tarco\\.nuget\\packages\\xamarin.forms\\5.0.0.2612\\xamarin.forms.5.0.0.2612.nupkg.sha512"
+  ],
+  "logs": []
+}
