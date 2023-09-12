@@ -25,7 +25,7 @@ namespace AppPrueba.Vistas
             peso = Convert.ToInt32(txtPeso.Text);
             altura = Convert.ToDouble(txtAltura.Text);
 
-            resultado = Math.Truncate(((peso / ((altura/100)* (altura / 100)))*100)/100);
+            resultado = peso / ((altura/100)*(altura/100));
             if (resultado < 18.5)
             {
                 msg = "Bajo Peso";
@@ -48,13 +48,14 @@ namespace AppPrueba.Vistas
             }
             else { msg = "Obesidad Tipo 3"; }
 
-            lblResultado.Text = resultado.ToString();
-            DisplayAlert("Resultados del IMC", "Tiene "+msg, "OK");
+            lblResultado.Text = resultado.ToString("N1");
+            lblCategoria.Text = msg;
+            DisplayAlert("Resultados del IMC", "Usted Tiene "+msg, "OK");
         }
 
         private void Validar()
         {
-            if(!string.IsNullOrEmpty(txtPeso.Text) || !string.IsNullOrEmpty(txtAltura.Text))
+            if(!string.IsNullOrEmpty(txtPeso.Text) && !string.IsNullOrEmpty(txtAltura.Text))
             {
                 Calcular();
             }
@@ -67,6 +68,14 @@ namespace AppPrueba.Vistas
         private void btnCalcular_Clicked(object sender, EventArgs e)
         {
             Validar();
+        }
+
+        private void btnLimpiar_Clicked(object sender, EventArgs e)
+        {
+            txtAltura.Text = string.Empty;
+            txtPeso.Text = string.Empty;
+            lblResultado.Text = " --- ";
+            lblCategoria.Text = " --- ";
         }
 
         private void btnAtras_Clicked(object sender, EventArgs e)
