@@ -18,7 +18,12 @@ namespace AppPrueba.Vistas
 
         private void btnIniciar_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new CalculadoraIMC());
+            Navigation.PushAsync(new LoginPage());
+        }
+
+        private void btnRegistrarse_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new RegistrarUsuario());
         }
     }
 }

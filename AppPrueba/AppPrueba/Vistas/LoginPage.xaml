@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppPrueba.LoginPage">
+    <ContentPage.Content>
+        <StackLayout Padding="15"
+                     VerticalOptions="Center">
+            <Label Text="Login de Usuario"
+                   VerticalOptions="Center"
+                   HorizontalOptions="Center"
+                   FontSize="Large" />
+            <Entry Placeholder="Usuario"
+                   x:Name="txtUser" />
+            <Entry Placeholder="Contraseña"
+                   x:Name="txtPass"
+                   IsPassword="True" />
+            <Button Text="Iniciar Sesión"
+                    x:Name="btnLogin"
+                    Clicked="btnLogin_Clicked"
+                    CornerRadius="15" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

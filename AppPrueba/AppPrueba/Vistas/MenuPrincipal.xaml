@@ -28,7 +28,7 @@
                            FontSize="16"
                            FontAttributes="Bold"
                            HorizontalOptions="Center" />
-                    <Button Text="Calcular"
+                    <Button Text="Iniciar Sesion"
                             TextTransform="None"
                             BackgroundColor="#DDF093"
                             CornerRadius="10"
@@ -38,6 +38,16 @@
                             Margin="20" 
                             x:Name="btnIniciar"
                             Clicked="btnIniciar_Clicked"/>
+                    <Button Text="Registrarse"
+                            TextTransform="None"
+                            BackgroundColor="#DDF093"
+                            CornerRadius="10"
+                            FontSize="Medium"
+                            FontAttributes="Bold"
+                            TextColor="#638475"
+                            Margin="20"
+                            x:Name="btnRegistrarse"
+                            Clicked="btnRegistrarse_Clicked" />
                 </StackLayout>
             </Frame>
         </StackLayout>

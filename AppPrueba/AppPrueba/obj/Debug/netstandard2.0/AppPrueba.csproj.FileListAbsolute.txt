@@ -14,3 +14,5 @@ C:\Users\tarco\source\repos\AppPrueba\AppPrueba\AppPrueba\obj\Debug\netstandard2
 C:\Users\tarco\source\repos\AppPrueba\AppPrueba\AppPrueba\obj\Debug\netstandard2.0\AppPrueba.pdb
 C:\Users\tarco\source\repos\AppPrueba\AppPrueba\AppPrueba\obj\Debug\netstandard2.0\Vistas\MenuPrincipal.xaml.g.cs
 C:\Users\tarco\source\repos\AppPrueba\AppPrueba\AppPrueba\obj\Debug\netstandard2.0\Vistas\CalculadoraIMC.xaml.g.cs
+C:\Users\tarco\source\repos\AppPrueba\AppPrueba\AppPrueba\obj\Debug\netstandard2.0\Vistas\RegistrarUsuario.xaml.g.cs
+C:\Users\tarco\source\repos\AppPrueba\AppPrueba\AppPrueba\obj\Debug\netstandard2.0\Vistas\LoginPage.xaml.g.cs

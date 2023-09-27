@@ -704,3 +704,8 @@ C:\Users\tarco\source\repos\AppPrueba\AppPrueba\AppPrueba.Android\obj\Debug\130\
 C:\Users\tarco\source\repos\AppPrueba\AppPrueba\AppPrueba.Android\obj\Debug\130\res\drawable\bajomedio.png
 C:\Users\tarco\source\repos\AppPrueba\AppPrueba\AppPrueba.Android\obj\Debug\130\res\drawable\bajo.png
 C:\Users\tarco\source\repos\AppPrueba\AppPrueba\AppPrueba.Android\obj\Debug\130\res\drawable\mitad.png
+C:\Users\tarco\source\repos\AppPrueba\AppPrueba\AppPrueba.Android\obj\Debug\130\android\assets\Firebase.dll
+C:\Users\tarco\source\repos\AppPrueba\AppPrueba\AppPrueba.Android\obj\Debug\130\android\assets\LiteDB.dll
+C:\Users\tarco\source\repos\AppPrueba\AppPrueba\AppPrueba.Android\obj\Debug\130\android\assets\Newtonsoft.Json.dll
+C:\Users\tarco\source\repos\AppPrueba\AppPrueba\AppPrueba.Android\obj\Debug\130\android\assets\System.Reactive.dll
+C:\Users\tarco\source\repos\AppPrueba\AppPrueba\AppPrueba.Android\obj\Debug\130\android\assets\System.Runtime.InteropServices.WindowsRuntime.dll
