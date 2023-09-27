@@ -44,7 +44,7 @@ namespace AppPrueba.Vistas
             {
                 await DisplayAlert("Informacion", "Usuario Registrado con Exito", "Ok"); ;
                 Clear();
-                await Navigation.PushAsync(new MenuPrincipal());
+                await Navigation.PopAsync();
             }
             else
             {
