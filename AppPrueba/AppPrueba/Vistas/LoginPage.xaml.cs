@@ -17,6 +17,7 @@ namespace AppPrueba
     public partial class LoginPage : ContentPage
     {
         private FirebaseClient firebaseClient;
+        MVUsuario MVUsuario = new MVUsuario();
         public LoginPage()
         {
             InitializeComponent();
@@ -27,22 +28,35 @@ namespace AppPrueba
         {
             string username = txtUser.Text;
             string password = txtPass.Text;
+            string userVali="", passVali="";
 
-            var user = (await firebaseClient
-                .Child("MUsuarios")
-                .OrderBy("Usuario")
-                .EqualTo(username)
-                .OnceSingleAsync<MUsuarios>()) ?? new MUsuarios();
-
-            if (user.Contrasena == password)
+            if (string.IsNullOrEmpty(username))
             {
-                await DisplayAlert("Inicio de Sesion", "Bienvenido" + user.Usuario, "OK");
+                await DisplayAlert("Inicio de Sesion", "Ingrese correctamente el usuario", "OK");
+            }
+            if (string.IsNullOrEmpty(password))
+            {
+                await DisplayAlert("Inicio de Sesion", "Ingrese correctamente la contraseña", "OK");
+            }
+
+            var usuarios=await MVUsuario.GetAll();
+            foreach (var usuar in usuarios)
+            {
+                if(usuar.Usuario == username)
+                {
+                    userVali= usuar.Usuario;
+                    passVali = usuar.Contrasena;
+                }
+            }
+           
+            if (userVali == username && passVali == password)
+            {
+                await DisplayAlert("Inicio de Sesion", "Bienvenido " + username, "OK");
                 await Navigation.PushAsync(new CalculadoraIMC());
             }
             else
             {
-                await DisplayAlert("Inicio de Sesion", "Bienvenido", "OK");
-                await Navigation.PushAsync(new CalculadoraIMC());
+                await DisplayAlert("Inicio de Sesion", "Usuario o Contraseña Incorrectos", "OK");
             }
         }
     }
